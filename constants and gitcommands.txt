@@ -1,0 +1,30 @@
+import constant from "../constants/constant.js"
+test.beforeEach(async({page})=> {
+await page.goto(constant.BASE_URL);
+});
+
+
+constants
+constant.js
+
+
+//npx playwright test --grep "@smoke" --headed
+//to give tags and execute test cases
+
+git commands
+
+ git init 
+ git add . 
+ git commit -m "commit message" 
+ git remote add origin URL 
+ git push -u origin main 
+ if rejected/failed, 
+  
+ git pull --rebase origin main
+
+Jenkins
+Command to start Jenkins
+
+java -jar jenkins.war
+localhost:8080
+6167d3cc656a44389a7b099c3e5345b0
